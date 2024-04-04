@@ -1,0 +1,29 @@
+.first {
+    background-color:  #1f2937;
+}
+
+.first-h {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.header-l {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.one {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
