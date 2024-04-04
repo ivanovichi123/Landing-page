@@ -1,29 +1,87 @@
 .first {
     background-color:  #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: auto;
+    background-size: cover;
 }
 
 .first-h {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0;
 }
 
 .header-l {
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+    gap: 20px;
+    padding-right: 20px;
 }
 
 .header {
     font-size: 24px;
     color: #f9faf8;
+    padding-left: 20px;
 }
 
 .text {
     font-size: 18px;
     color: #e5e7eb;
+    padding-top: 0;
+    margin-bottom: 10px;
 }
 
 .one {
     background-color: #3882f6;
     color: #e5e7eb;
+    border-radius: 10px;
+    border: #3882f6;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
 }
+
+#headers {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.la{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.left {
+    max-width: 45%;
+}
+
+.right {
+    max-width: 50%;
+    margin: auto;
+    background-color: dimgray;
+    margin-top: 50px;
+    padding: 100px 120px;
+}
+
+/* Second part of the page */ 
+
+.second {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 5%;
+    width: auto;
+}
+
