@@ -1,11 +1,12 @@
+body {
+    margin: 0;
+}
 .first {
     background-color:  #1f2937;
     display: flex;
     flex-direction: column;
     padding-left: 15%;
     padding-right: 15%;
-    margin: auto;
-    background-size: cover;
 }
 
 .first-h {
@@ -28,7 +29,7 @@
 .header {
     font-size: 24px;
     color: #f9faf8;
-    padding-left: 20px;
+
 }
 
 .text {
@@ -76,12 +77,4 @@
 
 /* Second part of the page */ 
 
-.second {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    padding-left: 10%;
-    padding-right: 5%;
-    width: auto;
-}
 
